@@ -1,0 +1,388 @@
+@charset "utf-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    position: relative;
+}
+.inner{
+    margin: 0 auto;
+    width: 1000px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* 首页头部代码 */
+.shou{
+    height: 29px;
+    background-color: #f2f2f2;
+    line-height: 27px;
+}
+a{
+    text-decoration: none;
+}
+.shou a{
+    font-size: 12px;
+    color: #969696;
+}
+.shou .shou-left span{
+    font-size: 12px;
+    color: #969696;
+    padding-left: 21px;
+}
+.shou .shou-left .gs1{
+    padding-left: 21px;
+}
+.shou .shou-r select{
+   border: 0;
+   color:#969696 ;
+   margin-left: 22px;
+}
+.shou .shou-r span{
+    color: #969696;
+    padding-left: 11px;
+    padding-right: 12px;
+}
+/* 天猫搜索区 */
+.tian-sou{
+    height: 96px;
+    line-height: 96px;
+    background-color: white;
+}
+.tian-sou .sou-left h1{
+    font-size: 28px;
+    color: #f90133;
+    font-family: 华文楷体;
+}
+.tian-sou .sou-right input{
+    border: 10px solid #ff002f;
+    border-right: none;
+    width: 447px;
+    height: 30px;
+    vertical-align: middle;
+}
+.tian-sou .sou-right button{
+    width: 90px;
+    height: 50px;
+    background-color:#ff002f ;
+    color: white;
+    border: 0;
+    margin-left: -6px;
+    vertical-align: middle;
+}
+/* 品牌清仓广告栏*/
+.guang img{
+    width: 100%;
+} 
+/* 内容浏览区 */
+/* 导航区 */
+.nav ul{
+    position: fixed;
+    top: 200px;
+    right: 0px;
+    list-style: none;
+    background-color: #7f35fa;
+    width: 100px;
+    height: 331px;
+    margin-right: 24px;
+}
+.nav .ll li{
+    padding-top: 3px;
+    padding-left: 14px;
+}
+.nav .ll li a{
+    color: #fbfff4;
+    font-size: 12px;
+}
+.nav .ll li a:hover{
+    border-bottom: 2px solid #5123a0;
+}
+.nav .ll .first{
+    padding-top: 0px;
+    padding-left: 0px;
+}
+/* 快消食品 */
+.nav .kuai{
+    margin-left: 50%;
+    margin-left: 350px;
+    padding-top: 27px;
+    padding-bottom: 22px;
+}
+.nav .kuai span{
+    color: #f8fff6;
+    font-size: 39px;
+    font-weight: bold;
+    padding-left: 39px;
+    padding-right: 39px;
+}
+/* 多分整个框架*/
+.nav .nei1{
+    width: 940px;
+    height: 307px;
+    border: 1px solid #dddbde;
+    margin: 30px 29px;
+    background-color: #ffffff;
+    position: relative;
+}
+/* 图片区域 */
+.nav .nei1 .duofen img{
+    width: 310px;
+    height: 307px;
+}
+/* 图片汉字区域 */
+.nav .nei1 .duofenzi{
+    padding-left: 30px;
+}
+.nav .nei1 .duofenzi h1{
+    font-size: 19px;
+    color: #30332c;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.nav .nei1 .duofenzi p{
+    font-size: 12px;
+    color: #9b9fa0;
+    padding-bottom: 8px;
+    padding-left: 3px;
+}
+.nav .nei1 .duofenzi .gs2{
+    color: #606569;
+    padding-top: 15px;
+}
+.nav .nei1 .duofenzi .gs2 span{
+    color: #ee1703;
+    padding-left: 31px;
+}
+.nav .nei1 .duofenzi .gs3 span{
+    color: #e61a1b;
+    font-size: 35px;
+}
+.nav .nei1 .duofenzi .gs3{
+    color: #e61a1b;
+    bottom: 23px;
+    position: absolute;
+}
+.nav .nei1 .duofenzi .gs3 del{
+    color: #9e9a9b;
+}
+/* 最后的按钮 */
+.nav .nei1 button{
+    background-color: #e61415;
+    width: 120px;
+    height: 41px;
+    color: #faf9ff;
+    font-size: 21px;
+    text-align: center;
+    border: 0;
+    position:absolute ;
+    bottom:19px;
+    right: 30px; 
+}
+.nav .nei1 .gs4{
+    top: 12px;
+    bottom: 19px;
+}
+.nav .inner.ye{
+    width: 940px;
+}
+.nav .inner .ye .box{
+    width: 294px;
+    height: 404px;
+    border: 1px solid #dddbde;
+    float: left;
+    margin-left: 26px;
+    margin-top: -10px;
+    margin-bottom: 27px;
+    background-color: #ffffff;
+    position: relative;
+}
+.nav .inner .ye .box img{
+    width: 293px;
+    height: 300px;
+}
+.nav .inner .ye .box .gs5{
+    width: 35px;
+    height: 18px;
+}
+.nav .inner .ye .box .zhekou{
+    width: 294px;
+    height: 50px;
+    background-color: #e61415;
+    position: absolute;
+    bottom:0px ;
+    color: #fff6ff;
+}
+.nav .inner .ye .box .zhekou .zhekou-r img{
+    height: 50px;
+    width: 48px;
+}
+.nav .inner .ye .box .p1{
+    font-size: 14px;
+    color: #29313c;
+    margin-left: 10px;
+}
+.nav .inner .ye .box .p2{
+    font-size: 12px;
+    color: #9c9a8b;
+    margin-left: 10px;
+}
+.nav .inner .jiazai button{
+    width: 196px;
+    height: 34px;
+    background-color: #ffffff;
+    border: 2px solid #f52350;
+    border-radius: 10%;
+}
+.nav .inner .jiazai button a{
+    color: #f52654;
+    font-size: 15px;
+}
+
+.nav .inner .jiazai{
+    margin-left: 383px;
+    margin-top: 26px;
+}
+/* 倒数第二个底部 */
+.footer{
+    height: 410px;
+    background-color: #ffffff;
+}
+/* 脚步上面灰色长条 */
+.footer .foot{
+    height: 19px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #d5d6da;
+    margin-top: 1px;
+}
+.footer .box1{
+    width: 200px;
+    height: 52px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 55px;
+}
+.gs6{
+    margin-left: 131px;
+}
+.footer .box1 .zi{
+    padding-left: 18px;
+
+}
+.footer .box2{
+    width: 103px;
+    height: 194px;
+    margin-top: 27px;
+    margin-bottom: 30px;
+    margin-right:120px;
+}
+.gs7{
+    margin-left: 130px;
+}
+.footer .box2 h1{
+    font-size: 17px;
+    color: #676767;
+    font-weight: bold;
+}
+.footer .box2 p{
+    font-size: 12px;
+    color: #8a8a8a;
+    padding-bottom: 8px;
+}
+/* 最底部 */
+.zui-foot{
+    height: 199px;
+    background-color: black;
+    border-top: 2px solid #fe0138;
+    position: relative;
+}
+.zui-foot .zui-foot-3 img{
+    position: absolute;
+    left: 125px;
+    top:-24px;
+}
+.zui-foot .p3{
+    top: 12px;
+    left: 80px;
+    position: absolute;
+}
+.zui-foot .p3 a{
+    color: #ffffff;
+    font-size: 12px;
+}
+.zui-foot .p4{
+    top: 47px;
+    left: 80px;
+    position: absolute;
+    color: #ffffff ;
+ }
+ .zui-foot .p4 a{
+    color: #ffffff;
+    font-size: 12px;
+}
+.zui-foot .p5{
+    top: 75px;
+    left: 80px;
+    position: absolute;
+    color: #a4a4a4 ;
+    font-size: 12px;
+ }
+ .zui-foot .p5 span{
+    padding-right: 69px;
+ }
+ .zui-foot .p6{
+    top: 101px;
+    left: 80px;
+    position: absolute;
+    color: #a4a4a4 ;
+    font-size: 12px;
+ }
+ .zui-foot .p6 span{
+    padding-right: 69px;
+ }
+ .zui-foot .p6 a{
+    color: #a4a4a4;
+    font-size: 12px;
+}
+.zui-foot .p7{
+    top: 131px;
+    left: 80px;
+    position: absolute;
+    color: #a4a4a4 ;
+    font-size: 12px;
+ }
+ .zui-foot .p7 span{
+    padding-right: 69px;
+ }
+ .zui-foot .p8{
+    top: 162px;
+    left: 80px;
+    position: absolute;
+    color: #a4a4a4 ;
+    font-size: 12px;
+ }
+ .zui-foot .p8 span{
+    padding-right: 69px;
+ }
+ .zui-foot .p8 a{
+    color: #a4a4a4;
+    font-size: 12px;
+}
+.zui-foot .p9{
+    top: 182px;
+    left: 80px;
+    position: absolute;
+    color: #69637f ;
+    font-size: 12px;
+ }
